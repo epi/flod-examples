@@ -1,0 +1,10 @@
+name "mad-example"
+description "An example mp3 player using flod."
+copyright "Copyright © 2016, Adrian Matoga"
+authors "Adrian Matoga"
+// Required because MAD is GPLed.
+license "GPL-2.0"
+dependency "flod" version="0.0.1"
+dependency "flod-alsa" version="0.0.2"
+dependency "flod-mad" version="0.0.2"
+dependency "flod-curl" version="0.0.2"
